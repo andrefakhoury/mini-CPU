@@ -1,0 +1,3 @@
+Contador Síncrono
+
+Foi realizado um contador síncrono, utilizando o flip-flop tipo D do quartus, que apresenta clock em ondas de subida. O debouncer foi utilizado duas vezes, para o clear e para o clock.

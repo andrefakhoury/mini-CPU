@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="ula[0]" source="Pin Planner" >
+		</pin>
+		<pin name="ula[1]" source="Pin Planner" >
+		</pin>
+		<pin name="ula[2]" source="Pin Planner" >
+		</pin>
+		<pin name="ula[3]" source="Pin Planner" >
+		</pin>
+		<pin name="LEDR[9]" source="Pin Planner" >
+		</pin>
+		<pin name="LEDR[8]" source="Pin Planner" >
+		</pin>
+		<pin name="OTG_DREQ[0]" source="Pin Planner" >
+		</pin>
+		<pin name="Q1" source="Pin Planner" >
+		</pin>
+		<pin name="Q2" source="Pin Planner" >
+		</pin>
+		<pin name="Q3" source="Pin Planner" >
+		</pin>
+		<pin name="clk" source="Pin Planner" >
+		</pin>
+		<pin name="clear" source="Pin Planner" >
+		</pin>
+		<pin name="Q4" source="Pin Planner" >
+		</pin>
+		<pin name="clk_1mhz" source="Pin Planner" >
+		</pin>
+		<pin name="in_data" source="Pin Planner" >
+		</pin>
+		<pin name="in_clk" source="Pin Planner" >
+		</pin>
+		<pin name="Q" source="Pin Planner" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>

@@ -1,0 +1,132 @@
+Flow report for psd-projects
+Tue Oct 23 14:45:29 2018
+Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++------------------------------------------------------------------------------+
+; Flow Summary                                                                 ;
++---------------------------------+--------------------------------------------+
+; Flow Status                     ; Successful - Tue Oct 23 14:45:29 2018      ;
+; Quartus II 64-Bit Version       ; 14.1.0 Build 186 12/03/2014 SJ Web Edition ;
+; Revision Name                   ; psd-projects                               ;
+; Top-level Entity Name           ; cpu_f                                      ;
+; Family                          ; Cyclone V                                  ;
+; Device                          ; 5CEBA4F23C7                                ;
+; Timing Models                   ; Final                                      ;
+; Logic utilization (in ALMs)     ; 94 / 18,480 ( < 1 % )                      ;
+; Total registers                 ; 58                                         ;
+; Total pins                      ; 53 / 224 ( 24 % )                          ;
+; Total virtual pins              ; 0                                          ;
+; Total block memory bits         ; 4,096 / 3,153,920 ( < 1 % )                ;
+; Total DSP Blocks                ; 0 / 66 ( 0 % )                             ;
+; Total HSSI RX PCSs              ; 0                                          ;
+; Total HSSI PMA RX Deserializers ; 0                                          ;
+; Total HSSI TX PCSs              ; 0                                          ;
+; Total HSSI PMA TX Serializers   ; 0                                          ;
+; Total PLLs                      ; 0 / 4 ( 0 % )                              ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                              ;
++---------------------------------+--------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/23/2018 14:44:29 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; psd-projects        ;
++-------------------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                ;
++-------------------------------------+--------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+--------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 62580476962096.154031666808576 ; --            ; --          ; --         ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --          ; --         ;
+; MISC_FILE                           ; rom.bsf                        ; --            ; --          ; --         ;
+; MISC_FILE                           ; rom.inc                        ; --            ; --          ; --         ;
+; MISC_FILE                           ; rom.cmp                        ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; 16764057                       ; --            ; cpu_f       ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; cpu_f       ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; cpu_f       ; Top        ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; cpu_f                          ; psd-projects  ; --          ; --         ;
++-------------------------------------+--------------------------------+---------------+-------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:12     ; 1.0                     ; 4884 MB             ; 00:00:22                           ;
+; Fitter                    ; 00:00:25     ; 1.6                     ; 6585 MB             ; 00:00:40                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 4839 MB             ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:08     ; 1.0                     ; 5135 MB             ; 00:00:08                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4763 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:52     ; --                      ; --                  ; 00:01:16                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; 6-305-29         ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; 6-305-29         ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; 6-305-29         ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; 6-305-29         ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; 6-305-29         ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off psd-projects -c psd-projects
+quartus_fit --read_settings_files=off --write_settings_files=off psd-projects -c psd-projects
+quartus_asm --read_settings_files=off --write_settings_files=off psd-projects -c psd-projects
+quartus_sta psd-projects -c psd-projects
+quartus_eda --read_settings_files=off --write_settings_files=off psd-projects -c psd-projects
+
+
+

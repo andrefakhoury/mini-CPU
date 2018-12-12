@@ -1,0 +1,133 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -5.952
+TNS   : -155.881
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -3.012
+TNS   : -68.976
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.258
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : 0.796
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -5.345
+TNS   : -95.467
+
+Type  : Slow 1100mV 85C Model Removal 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : 1.717
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -2.636
+TNS   : -57.432
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.538
+TNS   : -28.209
+
+Type  : Slow 1100mV 0C Model Setup 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -6.189
+TNS   : -160.335
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -3.274
+TNS   : -69.032
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.042
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : 0.773
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -5.484
+TNS   : -98.321
+
+Type  : Slow 1100mV 0C Model Removal 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : 1.837
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -2.636
+TNS   : -56.755
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.538
+TNS   : -28.559
+
+Type  : Fast 1100mV 85C Model Setup 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -3.109
+TNS   : -80.136
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -1.948
+TNS   : -15.328
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : 0.247
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -2.675
+TNS   : -50.398
+
+Type  : Fast 1100mV 85C Model Removal 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : 0.947
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -2.174
+TNS   : -31.207
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.358
+TNS   : -3.712
+
+Type  : Fast 1100mV 0C Model Setup 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -2.945
+TNS   : -76.045
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -1.618
+TNS   : -11.970
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.055
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : 0.219
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -2.532
+TNS   : -47.943
+
+Type  : Fast 1100mV 0C Model Removal 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : 0.943
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_clr_debouncer:inst234|debouncer:inst1|outb'
+Slack : -2.174
+TNS   : -31.037
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.352
+TNS   : -3.732
+
+------------------------------------------------------------

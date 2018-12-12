@@ -1,0 +1,4 @@
+Contador Assíncrono
+
+Foram utilizados 3 flip-flops JK para realizar a divisão do clock de forma a se criar um contador assíncrono (com clock de descida).
+O circuito utilizado apresenta um contador crescente. Com a negação das saídas, apresenta-se um contador decrescente.

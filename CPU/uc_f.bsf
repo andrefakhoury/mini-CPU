@@ -1,0 +1,156 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 312 320)
+	(text "uc_f" (rect 5 0 30 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 240 25 252)(font "Arial" ))
+	(port
+		(pt 0 208)
+		(input)
+		(text "q_reg1[3..0]" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "q_reg1[3..0]" (rect 21 203 89 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "q_reg2[3..0]" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "q_reg2[3..0]" (rect 21 219 89 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "clock" (rect 21 139 50 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 104)
+		(input)
+		(text "q_ula[3..0]" (rect 0 0 59 14)(font "Arial" (font_size 8)))
+		(text "q_ula[3..0]" (rect 21 99 80 113)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 16 104)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "clear" (rect 0 0 28 14)(font "Arial" (font_size 8)))
+		(text "clear" (rect 21 155 49 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "RomAddress[15..0]" (rect 0 0 109 14)(font "Arial" (font_size 8)))
+		(text "RomAddress[15..0]" (rect 21 35 130 49)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 16 40)(line_width 3))
+	)
+	(port
+		(pt 248 56)
+		(output)
+		(text "reg_ula[3..0]" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "reg_ula[3..0]" (rect 157 51 227 65)(font "Arial" (font_size 8)))
+		(line (pt 248 56)(pt 232 56)(line_width 3))
+	)
+	(port
+		(pt 248 224)
+		(output)
+		(text "clk_rom" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "clk_rom" (rect 184 219 227 233)(font "Arial" (font_size 8)))
+		(line (pt 248 224)(pt 232 224))
+	)
+	(port
+		(pt 128 256)
+		(output)
+		(text "reg2[3..0]" (rect 0 0 54 14)(font "Arial" (font_size 8)))
+		(text "reg2[3..0]" (rect 120 178 134 232)(font "Arial" (font_size 8))(vertical))
+		(line (pt 128 256)(pt 128 240)(line_width 3))
+	)
+	(port
+		(pt 112 256)
+		(output)
+		(text "reg1[3..0]" (rect 0 0 54 14)(font "Arial" (font_size 8)))
+		(text "reg1[3..0]" (rect 104 178 118 232)(font "Arial" (font_size 8))(vertical))
+		(line (pt 112 256)(pt 112 240)(line_width 3))
+	)
+	(port
+		(pt 248 176)
+		(output)
+		(text "clr_reg" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "clr_reg" (rect 187 171 227 185)(font "Arial" (font_size 8)))
+		(line (pt 248 176)(pt 232 176))
+	)
+	(port
+		(pt 248 72)
+		(output)
+		(text "sel_ula[1..0]" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "sel_ula[1..0]" (rect 159 67 227 81)(font "Arial" (font_size 8)))
+		(line (pt 248 72)(pt 232 72)(line_width 3))
+	)
+	(port
+		(pt 248 128)
+		(output)
+		(text "counter_jmp" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "counter_jmp" (rect 158 123 227 137)(font "Arial" (font_size 8)))
+		(line (pt 248 128)(pt 232 128))
+	)
+	(port
+		(pt 248 112)
+		(output)
+		(text "rom_data[7..0]" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "rom_data[7..0]" (rect 146 107 227 121)(font "Arial" (font_size 8)))
+		(line (pt 248 112)(pt 232 112)(line_width 3))
+	)
+	(port
+		(pt 248 144)
+		(output)
+		(text "counter_clr" (rect 0 0 64 14)(font "Arial" (font_size 8)))
+		(text "counter_clr" (rect 163 139 227 153)(font "Arial" (font_size 8)))
+		(line (pt 248 144)(pt 232 144))
+	)
+	(port
+		(pt 248 192)
+		(output)
+		(text "enable_reg1" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "enable_reg1" (rect 157 187 227 201)(font "Arial" (font_size 8)))
+		(line (pt 248 192)(pt 232 192))
+	)
+	(port
+		(pt 248 208)
+		(output)
+		(text "enable_reg2" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "enable_reg2" (rect 157 203 227 217)(font "Arial" (font_size 8)))
+		(line (pt 248 208)(pt 232 208))
+	)
+	(port
+		(pt 248 40)
+		(output)
+		(text "mem_ula[3..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "mem_ula[3..0]" (rect 143 35 220 49)(font "Arial" (font_size 8)))
+		(line (pt 248 40)(pt 232 40)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 232 240))
+	)
+)

@@ -1,0 +1,86 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 160 192)
+	(text "unit_mult" (rect 5 0 54 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 112 25 124)(font "Arial" ))
+	(port
+		(pt 56 0)
+		(input)
+		(text "x" (rect 0 0 7 14)(font "Arial" (font_size 8)))
+		(text "x" (rect 48 25 62 32)(font "Arial" (font_size 8))(vertical))
+		(line (pt 56 0)(pt 56 17))
+	)
+	(port
+		(pt 72 0)
+		(input)
+		(text "ci" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "ci" (rect 64 25 78 34)(font "Arial" (font_size 8))(vertical))
+		(line (pt 72 0)(pt 72 17))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "y" (rect 0 0 7 14)(font "Arial" (font_size 8)))
+		(text "y" (rect 21 59 28 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 40 0)
+		(input)
+		(text "si" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "si" (rect 32 25 46 34)(font "Arial" (font_size 8))(vertical))
+		(line (pt 40 0)(pt 40 17))
+	)
+	(port
+		(pt 96 64)
+		(output)
+		(text "yo" (rect 0 0 14 14)(font "Arial" (font_size 8)))
+		(text "yo" (rect 61 59 75 73)(font "Arial" (font_size 8)))
+		(line (pt 96 64)(pt 80 64))
+	)
+	(port
+		(pt 24 128)
+		(output)
+		(text "xo" (rect 0 0 14 14)(font "Arial" (font_size 8)))
+		(text "xo" (rect 16 90 30 104)(font "Arial" (font_size 8))(vertical))
+		(line (pt 24 128)(pt 24 112))
+	)
+	(port
+		(pt 24 0)
+		(output)
+		(text "co" (rect 0 0 14 14)(font "Arial" (font_size 8)))
+		(text "co" (rect 16 23 30 37)(font "Arial" (font_size 8))(vertical))
+		(line (pt 24 0)(pt 24 16))
+	)
+	(port
+		(pt 40 128)
+		(output)
+		(text "so" (rect 0 0 14 14)(font "Arial" (font_size 8)))
+		(text "so" (rect 32 90 46 104)(font "Arial" (font_size 8))(vertical))
+		(line (pt 40 128)(pt 40 112))
+	)
+	(drawing
+		(rectangle (rect 16 16 80 112))
+	)
+)
